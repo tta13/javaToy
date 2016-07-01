@@ -8,4 +8,8 @@ public class Subtracao {
 		this.numeroUm = 0;
 		this.numeroDois = 0;
 	}
+	
+	public int getSub(){
+		return this.numeroUm - this.numeroDois;
+	}
 }
