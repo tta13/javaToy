@@ -7,8 +7,8 @@ import org.junit.Test;
 public class SubTest {
 	
 	@Test
-	public void testaSubtracao(){
+	public void testaSub(){
 		Subtracao sub = new Subtracao();
-		assertEquals(0, sub.getSubtracao());
+		assertEquals(1, sub.getSub());
 	}
 }

@@ -9,7 +9,7 @@ public class Subtracao {
 		this.numeroDois = 0;
 	}
 	
-	public int getSubtracao(){
+	public int getSub(){
 		return this.numeroUm - this.numeroDois;
 	}
 }
