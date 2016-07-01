@@ -10,7 +10,7 @@ public class Soma {
 	}
 
 	public int getSoma(){
-		return numeroUm + numeroDois - 1;
+		return numeroUm + numeroDois;
 	}
 
 	public void setNumeroUm(int novoValor){
