@@ -9,6 +9,6 @@ public class SubTest {
 	@Test
 	public void testaSub(){
 		Subtracao sub = new Subtracao();
-		assertEquals(1, sub.getSubtracao());
+		assertEquals(1, sub.getSub());
 	}
 }
