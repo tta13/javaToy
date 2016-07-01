@@ -3,11 +3,12 @@ package toyJava.javaToy;
 public class Soma {
 	private int numeroUm;
 	private int numeroDois;
-	private int somaNumeros;
-
+	private int soma;
+	
 	public Soma (){
 		this.numeroUm = 0;
 		this.numeroDois = 0;
+		this.soma = 0;
 	}
 
 	public int getSoma(){
