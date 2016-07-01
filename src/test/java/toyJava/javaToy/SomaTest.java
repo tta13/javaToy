@@ -7,11 +7,11 @@ import org.junit.Test;
 public class SomaTest {
 
 	@Test
-	public void test() {
+	public void testSoma(){
 		Soma soma = new Soma();
 		soma.setNumeroUm(5);
 		soma.setNumeroDois(7);
-		assertEquals(12, soma.getSoma());
+		assertEquals("error in Soma", 12, soma.getSoma());
 	}
 
 }
