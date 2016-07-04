@@ -10,12 +10,11 @@ public  class  Soma {
 	
 	private int somaNumeros;
 
-	
+
 	
 	public Soma (){
 		this.numeroUm = 0;
 		this.numeroDois = 0;
-		this.soma = 0;
 	}
 
 	
