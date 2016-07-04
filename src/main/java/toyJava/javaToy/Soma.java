@@ -42,4 +42,5 @@ public  class  Soma {
 	
 	private int soma;
 
+
 }
