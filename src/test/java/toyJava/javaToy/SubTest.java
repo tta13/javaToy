@@ -12,4 +12,10 @@ public class SubTest {
 		sub.setNumeroUm(1);
 		assertEquals(1, sub.getSub());
 	}
+	
+	@Test
+	public void testaSubSemSet(){
+		Subtracao sub = new Subtracao();
+		assertEquals(0, sub.getSub());
+	}
 }
