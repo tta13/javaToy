@@ -18,4 +18,11 @@ public class SubTest {
 		Subtracao sub = new Subtracao();
 		assertEquals(0, sub.getSub());
 	}
+	
+	@Test
+	public void testaSubComSet(){
+		Subtracao sub = new Subtracao();
+		sub.setNumeroUm(2);
+		assertEquals(2, sub.getSub());
+	}
 }
