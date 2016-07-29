@@ -10,8 +10,8 @@ public class SomaTest {
 	public void testSoma(){
 		Soma soma = new Soma();
 		soma.setNumeroUm(5);
-		soma.setNumeroDois(7);
-		assertEquals("error in Soma", 12, soma.getSoma());
+		soma.setNumeroDois(9);
+		assertEquals("error in Soma", 14, soma.getSoma());
 	}
 
 }
