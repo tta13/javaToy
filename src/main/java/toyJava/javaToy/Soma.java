@@ -27,10 +27,6 @@ public  class  Soma {
 		this.numeroUm = novoValor;
 	}
 
-	public void setNumeroDois(int novoValor){
-		this.numeroDois = novoValor;
-	}
-	
 	public int getNumeroUm(){
 		return this.numeroUm;
 	}
