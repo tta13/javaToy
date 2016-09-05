@@ -13,4 +13,11 @@ public class SomaTest {
 		assertEquals("error in Soma", 5, soma.getSoma());
 	}
 
+	@Test
+	public void testSoma2(){
+		Soma soma = new Soma();
+		soma.setNumeroUm(6);
+		assertEquals("error in Soma", 6, soma.getSoma());
+	}
+
 }
