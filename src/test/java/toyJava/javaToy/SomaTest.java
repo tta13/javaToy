@@ -2,15 +2,20 @@ package toyJava.javaToy;
 
 import static org.junit.Assert.assertEquals;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import org.junit.Test;
 
 public class SomaTest {
 	Soma soma = new Soma();
-
+	Calendar cal = Calendar.getInstance();
+    SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+    
 	@Test
 	public void testSomaUmParalelizando() {
 		soma.setNumeroUm(6);
-		System.out.println("Esse foi primeiro"+System.currentTimeMillis());
+		System.out.println("Esse foi primeiro "+sdf.format(cal.getTime()));
 		assertEquals("error in Soma", 6, soma.getSoma());
 	}
 	
