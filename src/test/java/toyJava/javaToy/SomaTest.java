@@ -22,14 +22,14 @@ public class SomaTest {
 	@Test
 	public void testSomaDoinParalelizando() {
 		soma.setNumeroUm(7);
-		System.out.println("Esse foi segundo"+System.currentTimeMillis());
+		System.out.println("Esse foi segundo "+sdf.format(cal.getTime()));
 		assertEquals("error in Soma", 7, soma.getSoma());
 	}
 	
 	@Test
 	public void testSomTresParalelizando() {
 		soma.setNumeroUm(8);
-		System.out.println("Esse foi terceiro"+System.currentTimeMillis());
+		System.out.println("Esse foi terceiro "+sdf.format(cal.getTime()));
 		assertEquals("error in Soma", 8, soma.getSoma());
 	}
 
