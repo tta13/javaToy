@@ -3,8 +3,11 @@ language: java
 jdk:
   - oraclejdk8
 
-script:
-    - mvn test
+env:
+  - TEST_SUITE=units
+  - TEST_SUITE=integration
+
+script: "bundle exec rake test:$TEST_SUITE"
 
 after_script:
 notifications:
