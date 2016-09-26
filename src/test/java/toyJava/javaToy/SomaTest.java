@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class SomaTest {
@@ -26,6 +27,7 @@ public class SomaTest {
 		assertEquals("error in Soma", 7, soma.getSoma());
 	}
 	
+	@Ignore
 	@Test
 	public void testSomTresParalelizando() {
 		soma.setNumeroUm(8);
