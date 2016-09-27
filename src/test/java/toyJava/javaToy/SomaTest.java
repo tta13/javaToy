@@ -27,7 +27,6 @@ public class SomaTest {
 		assertEquals("error in Soma", 7, soma.getSoma());
 	}
 	
-	@Ignore
 	@Test
 	public void testSomTresParalelizando() {
 		soma.setNumeroUm(8);
