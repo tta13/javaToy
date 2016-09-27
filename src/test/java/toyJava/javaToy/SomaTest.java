@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class SomaTest {
