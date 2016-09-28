@@ -23,7 +23,7 @@ public class SomaTest {
 	public void testSomaDoinParalelizando() {
 		soma.setNumeroUm(7);
 		System.out.println("Esse foi segundo "+sdf.format(cal.getTime()));
-		assertEquals("error in Soma", 7, soma.getSoma());
+		assertEquals("error in Soma", 8, soma.getSoma());
 	}
 	
 	@Test
