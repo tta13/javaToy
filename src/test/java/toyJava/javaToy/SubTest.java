@@ -9,7 +9,7 @@ public class SubTest {
 	@Test
 	public void testaSub(){
 		Subtracao sub = new Subtracao();
-		sub.setNumeroUm(1);
+		sub.setNumeroUm(1)
 		assertEquals(1, sub.getSub());
 	}
 	
