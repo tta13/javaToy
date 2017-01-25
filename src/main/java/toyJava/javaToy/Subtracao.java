@@ -10,7 +10,7 @@ public class Subtracao {
 	}
 	
 	public int getSub(){
-		return this.numeroUm + this.numeroDois;
+		return this.numeroUm - this.numeroDois;
 	}
 
 	public void setNumeroUm(int novoNumero){
