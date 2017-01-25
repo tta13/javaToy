@@ -8,9 +8,14 @@ public class Subtracao {
 		this.numeroUm = 0;
 		this.numeroDois = 0;
 	}
-	
+	public int getNumeroUm(){
+		return this.numeroUm;
+	}
+	public getNumeroUm(){
+		return this.numeroUm;
+	}	
 	public int getSub(){
-		return this.numeroUm + this.numeroDois;
+		return this.numeroUm - this.numeroDois;
 	}
 
 	public void setNumeroUm(int novoNumero){
@@ -18,6 +23,6 @@ public class Subtracao {
 	}
 
 	public void setNumeroDois(int novoNumber){
-			this.numeroDois = novoNumber;
-		}
+		this.numeroDois = novoNumber;
+	}
 }
