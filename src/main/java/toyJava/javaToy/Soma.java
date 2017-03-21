@@ -38,8 +38,6 @@ public  class  Soma {
 	public int getNumeroDois(){
 		return this.numeroDois;
 	}
-	
-	private int soma;
 
 
 }
