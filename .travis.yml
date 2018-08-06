@@ -1,12 +1,8 @@
+
 language: java
 
 jdk:
   - oraclejdk8
 
-script:
-    - mvn test
-
-after_script:
-notifications:
-  recipients:
-   - leusonmario@gmail.com
+script: 
+  - mvn test
