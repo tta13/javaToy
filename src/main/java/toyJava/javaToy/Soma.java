@@ -8,7 +8,7 @@ public  class  Soma {
 
 	public Soma (){
 		this.numeroUm = 0;
-		this.numeroDois = 0;
+		this.numeroDois = 1;
 	}
 
 	public int getSoma(){
