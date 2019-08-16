@@ -5,8 +5,3 @@ jdk:
 
 script:
     - mvn test
-
-after_script:
-notifications:
-  recipients:
-   - leusonmario@gmail.com
