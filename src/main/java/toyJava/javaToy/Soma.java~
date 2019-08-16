@@ -3,7 +3,6 @@ package toyJava.javaToy;
 public class Soma {
 	private int numeroUm;
 	private int numeroDois;
-	private int soma;
 	
 	public Soma (){
 		this.numeroUm = 0;
