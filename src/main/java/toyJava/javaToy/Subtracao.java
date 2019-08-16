@@ -14,9 +14,6 @@ public class Subtracao {
 	public int getNumeroDois(){
 		return this.numeroDois;
 	}
-	public int getNumeroUm(){
-		return this.numeroUm;
-	}	
 	public int getSub(){
 		return this.numeroUm - this.numeroDois;
 	}
